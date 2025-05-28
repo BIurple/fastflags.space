@@ -22,7 +22,7 @@ order: -3
     "FFlagRenderDynamicResolutionScale12": "True"
 }
 ```
-### Move Pre-Render Phase [~25% Performance Boost]
+### Move Pre-Render Phase [~25% Performance Boost] [!badge variant="danger" text="Please read the explanation below before applying"]
 ==- :icon-question: View Full Documentation 
 > [!IMPORTANT]  
 > This FastFlag moves the Pre-Render task to an off thread after all other tasks are completed. By default, Pre-Render runs first, forcing the render thread to wait until the Pre-Render process finishes before it can start rendering a frame.
@@ -38,7 +38,7 @@ order: -3
 ===
 ```json
 {
-    "FFlagMovePrerenderV2": "True"
+    "FFlagMovePrerender": "True"
 }
 ```
 ### Increased Grass Motion & No Grass Motion
@@ -131,20 +131,12 @@ order: -3
     "DFFlagDisableDPIScale": "True"
 }
 ```
-### Low Graphics Quality w/ Max Render Distance/FRM Quality Levels
+### FRM Quality Levels
 > [!TIP]
-> **1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider**
+> **1-6 Are low graphics, Above 6 are high graphics**
 ```json
 {
     "DFIntDebugFRMQualityLevelOverride": "1"
-}
-```
-
-### FRM 21 Graphics Quality Slider
-```json
-{
-    "FFlagCommitToGraphicsQualityFix": "True",
-    "FFlagFixGraphicsQuality": "True"
 }
 ```
 ### Low Render Distance

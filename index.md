@@ -4,7 +4,7 @@ icon: rel-file-path
 authors:
   - name: Farrelle
     link: https://twitter.com/caffe_soft
-    avatar: https://slattist.fastflags.space/slattist.png
+    avatar: assets/cartikiss.gif
 date: 2023-08-26
 ---
 
@@ -14,7 +14,7 @@ FastFlags are internal settings to quickly turn features on or off without needi
 
 <div align="center">
 
-![](assets/ye.gif)
+![](assets/pbc.png)
 
 # fastflags.$pace
 <a href="https://discord.gg/6zqNQTSkrg">

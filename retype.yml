@@ -6,10 +6,15 @@ breadcrumb:
   home: ":icon-home:"
   separator: "|"
 branding:
-  title: "fastflags.space"
-  logo: assets/white.gif
-  logoDark: assets/005.jpg
+  title: "fastflags*space"
+  logo: assets/005.gif
 links:
+- text: Shop
+  link: https://fastflags.mysellauth.com/
+  icon: credit-card
+- text: Patreon
+  link: https://patreon.com/fastflags
+  icon: feed-heart
 - text: Repository
   link: https://github.com/fastdotspace/fastflags.space
   icon: mark-github
@@ -20,6 +25,11 @@ links:
   link: https://github.com/fastdotspace/fastflags.space/issues
   icon: comment-discussion
 footer:
-  copyright: "the wonderful world of fastflags.space | &copy; Copyright {{ year }} – [fastdotspace](https://github.com/fastdotspace/) – All rights reserved."
+  copyright: "&copy; Copyright {{ year }} – [fastflags.space](https://github.com/fastdotspace/) – All rights reserved."
+  footer:
+  links:
+    - text: Privacy Policy
+      link: privacy-policy.md
+      icon: shield-lock
 meta:
   title: " | fastflags.space"
