@@ -13,15 +13,16 @@ FastFlags are internal settings to quickly turn features on or off without needi
 !!!
 
 <div align="center">
+  
+<img src="assets/pbc.png" width="768">
 
-![](assets/pbc.png)
+**fastflags.space** is a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
 
-# fastflags.$pace
-<a href="https://discord.gg/6zqNQTSkrg">
-  <img src="https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff" width="156" alt="Join Discord">
-  </a>
+---
 
-:icon-book: 205 Currently Listed [!badge variant="info" text="LATEST"]
+:::content-center
+[!button icon="assets/Discord-Symbol-Black.svg" size="2xl" variant="contrast" text="fastflags*space"](https://discord.gg/6zqNQTSkrg)
+:::
 
 [!ref icon="log"](/logs/changelog.md)
 

@@ -1,10 +1,31 @@
 ---
-title: FastFlags.Space Changelogs
+title: FastFlags.$pace Changelogs
 icon: log
 order: -3
 layout: blog
 date: 2025-04-01
 ---
+
+<div align="center">
+
+### v6.11 [!badge variant="info" text="LATEST"]
+Released: 2025-06-11
+
+</div>
+
++++ :icon-sparkle-fill: New
+- [x] **Disable centered experience details page`**
+- [x] **No Voice Chat 2`**
+- [x] **Self Explanatory 13`**
+- [x] **Self Explanatory 14`**
+- [x] Readded `Font Size Options`**
+- [x] Readded `Font Size`**
++++ :icon-thumbsup: Improved
+- [x] **Disable Telemetry`**
+- [x] **Disable Highlights `**
++++
+
+<div align="center">
 
 <div align="center">
 
@@ -152,7 +173,7 @@ Released: 2025-02-02
 +++ :icon-bug: Fixed
 - [x] Fix `Disable Highlights` and `Enable DRS` contents being swapped
 - [x] Fix `Chrome UI Topbar Removal` to work again
-- [x] `Disable Blue Theme` > `Enable Blue Theme`
+- [x] Disable Blue Theme` > `Enable Blue Theme`
 - [x] Fix `Unified Lighting` to work as of current production version
 +++ :icon-trash: Removed
 - [x] Removed `Disable Animation Dynamic Speed`

@@ -159,3 +159,19 @@ order: -8
     "FFlagDataModelPatcherForceLocal": "True"
 }
 ```
+### Self Explanatory 13
+> [!NOTE]
+> Network Menu Update Rate
+```json
+{
+    "FFlagDataModelPatcherForceLocal": "-2147483647"
+}
+```
+### Self Explanatory 14
+> [!NOTE]
+> Improved object detail using Fractal Upsample (This belongs to graphics section i know)
+```json
+{
+    "FFlagDebugGridForceFractalUpsample": "True"
+}
+```

@@ -12,10 +12,18 @@ order: -4
 ```
 ### Disable VC
 > [!NOTE]
-> Setting this to `True` will not do anything
+> Setting this to `True` will not do change anything
 ```json
 {
     "DFFlagVoiceChat4": "False"
+}
+```
+### Disable VC
+> [!NOTE]
+> Setting this to `True` will not do change anything
+```json
+{
+    "DFFlagAvatarChatServiceEnableVoiceEnabledV1": "False"
 }
 ```
 ### Removes translated supported message on join
@@ -23,7 +31,7 @@ order: -4
 > `"Roblox automatically translates supported languages in chat."`
 ```json
 {
-    "FFlagChatTranslationEnableSystemMessage": "False
+    "FFlagChatTranslationEnableSystemMessage": "False"
 }
 ```
 ### Allows you to customize which languages are available for the chat translation feature
@@ -117,13 +125,11 @@ order: -4
 ### Disable Telemetry 
 ```json
 {
-    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
-    "FFlagDebugDisableTelemetryEphemeralStat": "True",
-    "FFlagDebugDisableTelemetryEventIngest": "True",
-    "FFlagDebugDisableTelemetryPoint": "True",
-    "FFlagDebugDisableTelemetryV2Counter": "True",
-    "FFlagDebugDisableTelemetryV2Event": "True",
-    "FFlagDebugDisableTelemetryV2Stat": "True"
+    "DFStringTelemetryV2Url": "0.0.0.0",
+    "FFlagEnableTelemetryProtocol": "False",
+    "FFlagEnableTelemetryService1": "False",
+    "FFlagPropertiesEnableTelemetry": "False",
+    "FFlagOpenTelemetryEnabled2": "False"
 }
 ```
 ### Surf the web inside of Roblox

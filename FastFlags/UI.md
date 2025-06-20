@@ -9,6 +9,26 @@ order: -5
     "FStringDebugHighlightSpecificFont": "rbxasset://fonts/families/BuilderSans.json"
 }
 ```
+### Font Size Options
+```json
+{
+     "FFlagEnablePreferredTextSizeGuiService": "True",
+     "FFlagEnablePreferredTextSizeScale": "True",
+     "FFlagEnablePreferredTextSizeSettingInMenus2": "True"
+}
+```
+### Font Size
+```json
+{
+     "FIntFontSizePadding": "FIntFontSizePadding"
+}
+```
+### Disable Centered Experience Details Page
+```json
+{
+    "FFlagLuaAppEdpSingleColumnlxp": "False"
+}
+```
 ### Voicechat Mute Toggles
 ![example](https://github.com/user-attachments/assets/186d3b58-5560-4ea7-ba6f-cc62f8ab5351)
 ```json
